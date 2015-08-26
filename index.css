@@ -1,0 +1,122 @@
+html, body {
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	font-family: Helvetica;
+}
+
+.header {
+	background-color: #FAB739;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+}
+
+.content {
+	height: 100%;
+	background: #ffffff url("img/content.png") no-repeat center center;
+	background-size: contain;
+}
+
+a.arrow {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+
+/**
+ *	Click effect on arrow button
+ **/
+a.arrow:active img {
+	-ms-transform: scale(0.9, 0.9); 
+    -webkit-transform: scale(0.9, 0.9); 
+    transform: scale(0.9, 0.9);
+}
+
+.footer {
+	background-color: #818181;
+	height: 30px;
+	line-height: 30px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+}
+
+/**
+ * Delay appearance animation
+ **/
+
+.with-delay {
+    -webkit-animation: delay-appearance 2s;
+    -moz-animation: delay-appearance 2s;
+    -o-animation: delay-appearance 2s;
+    animation: delay-appearance 2s;
+}
+
+@keyframes delay-appearance {
+    0% {
+    	display: none;
+    	opacity: 0;
+    }
+    49% {
+    	display: block;
+    	opacity: 0;
+    }
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@-webkit-keyframes delay-appearance {
+    0% {
+    	display: none;
+    	opacity: 0;
+    }
+    49% {
+    	display: block;
+    	opacity: 0;
+    }
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@-moz-keyframes delay-appearance {
+    0% {
+    	display: none;
+    	opacity: 0;
+    }
+    49% {
+    	display: block;
+    	opacity: 0;
+    }
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@-o-keyframes delay-appearance {
+    0% {
+    	display: none;
+    	opacity: 0;
+    }
+    49% {
+    	display: block;
+    	opacity: 0;
+    }
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes delay-appearance {
+    0% {
+    	display: none;
+    	opacity: 0;
+    }
+    49% {
+    	display: block;
+    	opacity: 0;
+    }
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
